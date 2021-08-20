@@ -1,0 +1,12 @@
+2021-08-20T05:17:18+00:00 CRITICAL syntax error, unexpected token ")" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/custom-shortcodes.php on line 201
+
+2021-08-20T05:18:56+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/custom-shortcodes.php on line 204
+
+2021-08-20T05:19:18+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/custom-shortcodes.php on line 204
+
+2021-08-20T05:45:52+00:00 CRITICAL syntax error, unexpected token "}" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/custom-shortcodes.php on line 205
+
+2021-08-20T05:47:52+00:00 CRITICAL Unclosed '{' on line 202 in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/custom-shortcodes.php on line 219
+
+2021-08-20T05:53:34+00:00 CRITICAL syntax error, unexpected token "if" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/custom-shortcodes.php on line 203
+

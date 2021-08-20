@@ -1,0 +1,230 @@
+2021-08-18T08:31:15+00:00 CRITICAL Uncaught Error: Call to undefined function get_name() in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php:50
+Stack trace:
+#0 /opt/lampp/htdocs/pj-cosmetics/wp-includes/shortcodes.php(356): banner_product('', '', 'display_banner_...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /opt/lampp/htdocs/pj-cosmetics/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '[display_banner...')
+#3 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[display_banner...')
+#4 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/base/controls-stack.php(2144): Elementor\Widget_Shortcode->render()
+#5 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/base/widget-base.php(581): Elementor\Controls_Stack->render_by_mode()
+#6 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/core/base/document.php(271): Elementor\Widget_Base->render_content()
+#7 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/managers/widgets.php(323): Elementor\Core\Base\Document->render_element(Array)
+#8 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#9 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 /opt/lampp/htdocs/pj-cosmetics/wp-includes/class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#11 /opt/lampp/htdocs/pj-cosmetics/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#12 /opt/lampp/htdocs/pj-cosmetics/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#13 /opt/lampp/htdocs/pj-cosmetics/wp-admin/admin-ajax.php(187): do_action('wp_ajax_element...')
+#14 {main}
+  thrown in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 50
+
+2021-08-18T09:02:05+00:00 CRITICAL Uncaught Error: Undefined constant "name" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php:50
+Stack trace:
+#0 /opt/lampp/htdocs/pj-cosmetics/wp-includes/shortcodes.php(356): banner_product('', '', 'display_banner_...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /opt/lampp/htdocs/pj-cosmetics/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '[display_banner...')
+#3 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[display_banner...')
+#4 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/base/controls-stack.php(2144): Elementor\Widget_Shortcode->render()
+#5 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/base/widget-base.php(581): Elementor\Controls_Stack->render_by_mode()
+#6 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/core/base/document.php(271): Elementor\Widget_Base->render_content()
+#7 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/managers/widgets.php(323): Elementor\Core\Base\Document->render_element(Array)
+#8 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#9 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 /opt/lampp/htdocs/pj-cosmetics/wp-includes/class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#11 /opt/lampp/htdocs/pj-cosmetics/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#12 /opt/lampp/htdocs/pj-cosmetics/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#13 /opt/lampp/htdocs/pj-cosmetics/wp-admin/admin-ajax.php(187): do_action('wp_ajax_element...')
+#14 {main}
+  thrown in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 50
+
+2021-08-18T09:02:24+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product as array in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php:50
+Stack trace:
+#0 /opt/lampp/htdocs/pj-cosmetics/wp-includes/shortcodes.php(356): banner_product('', '', 'display_banner_...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /opt/lampp/htdocs/pj-cosmetics/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '[display_banner...')
+#3 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[display_banner...')
+#4 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/base/controls-stack.php(2144): Elementor\Widget_Shortcode->render()
+#5 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/base/widget-base.php(581): Elementor\Controls_Stack->render_by_mode()
+#6 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/core/base/document.php(271): Elementor\Widget_Base->render_content()
+#7 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/managers/widgets.php(323): Elementor\Core\Base\Document->render_element(Array)
+#8 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#9 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 /opt/lampp/htdocs/pj-cosmetics/wp-includes/class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#11 /opt/lampp/htdocs/pj-cosmetics/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#12 /opt/lampp/htdocs/pj-cosmetics/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#13 /opt/lampp/htdocs/pj-cosmetics/wp-admin/admin-ajax.php(187): do_action('wp_ajax_element...')
+#14 {main}
+  thrown in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 50
+
+2021-08-18T09:02:41+00:00 CRITICAL Uncaught Error: Call to undefined function get_name() in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php:50
+Stack trace:
+#0 /opt/lampp/htdocs/pj-cosmetics/wp-includes/shortcodes.php(356): banner_product('', '', 'display_banner_...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /opt/lampp/htdocs/pj-cosmetics/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '[display_banner...')
+#3 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[display_banner...')
+#4 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/base/controls-stack.php(2144): Elementor\Widget_Shortcode->render()
+#5 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/base/widget-base.php(581): Elementor\Controls_Stack->render_by_mode()
+#6 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/core/base/document.php(271): Elementor\Widget_Base->render_content()
+#7 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/managers/widgets.php(323): Elementor\Core\Base\Document->render_element(Array)
+#8 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#9 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 /opt/lampp/htdocs/pj-cosmetics/wp-includes/class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#11 /opt/lampp/htdocs/pj-cosmetics/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#12 /opt/lampp/htdocs/pj-cosmetics/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#13 /opt/lampp/htdocs/pj-cosmetics/wp-admin/admin-ajax.php(187): do_action('wp_ajax_element...')
+#14 {main}
+  thrown in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 50
+
+2021-08-18T09:03:31+00:00 CRITICAL Uncaught Error: Call to undefined function get_name() in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php:50
+Stack trace:
+#0 /opt/lampp/htdocs/pj-cosmetics/wp-includes/shortcodes.php(356): banner_product('', '', 'display_banner_...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /opt/lampp/htdocs/pj-cosmetics/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '[display_banner...')
+#3 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[display_banner...')
+#4 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/base/controls-stack.php(2144): Elementor\Widget_Shortcode->render()
+#5 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/base/widget-base.php(581): Elementor\Controls_Stack->render_by_mode()
+#6 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/core/base/document.php(271): Elementor\Widget_Base->render_content()
+#7 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/managers/widgets.php(323): Elementor\Core\Base\Document->render_element(Array)
+#8 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#9 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 /opt/lampp/htdocs/pj-cosmetics/wp-includes/class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#11 /opt/lampp/htdocs/pj-cosmetics/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#12 /opt/lampp/htdocs/pj-cosmetics/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#13 /opt/lampp/htdocs/pj-cosmetics/wp-admin/admin-ajax.php(187): do_action('wp_ajax_element...')
+#14 {main}
+  thrown in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 50
+
+2021-08-18T09:14:07+00:00 CRITICAL syntax error, unexpected token "return", expecting "," or ";" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 54
+
+2021-08-18T09:20:51+00:00 CRITICAL syntax error, unexpected token "return", expecting "," or ";" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 55
+
+2021-08-18T09:22:23+00:00 CRITICAL syntax error, unexpected token "return", expecting "(" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 57
+
+2021-08-18T09:24:23+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 58
+
+2021-08-18T09:24:53+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 58
+
+2021-08-18T09:27:48+00:00 CRITICAL syntax error, unexpected token ")" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 50
+
+2021-08-18T09:30:37+00:00 CRITICAL syntax error, unexpected token "}" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 67
+
+2021-08-18T09:35:09+00:00 CRITICAL syntax error, unexpected token "return" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 72
+
+2021-08-18T09:35:54+00:00 CRITICAL syntax error, unexpected token ";" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 69
+
+2021-08-18T09:55:22+00:00 CRITICAL Uncaught Exception: Invalid product. in /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/woocommerce/includes/data-stores/class-wc-product-data-store-cpt.php:167
+Stack trace:
+#0 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Product_Data_Store_CPT->read(Object(WC_Product))
+#1 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(137): WC_Data_Store->read(Object(WC_Product))
+#2 /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php(52): WC_Product->__construct('12')
+#3 /opt/lampp/htdocs/pj-cosmetics/wp-includes/shortcodes.php(356): banner_product(Array, '', 'display_banner_...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /opt/lampp/htdocs/pj-cosmetics/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '[display_banner...')
+#6 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[display_banner...')
+#7 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/base/controls-stack.php(2144): Elementor\Widget_Shortcode->render()
+#8 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/base/widget-base.php(581): Elementor\Controls_Stack->render_by_mode()
+#9 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/base/widget-base.php(722): Elementor\Widget_Base->render_content()
+#10 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/base/element-base.php(450): Elementor\Widget_Base->print_content()
+#11 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/base/element-base.php(744): Elementor\Element_Base->print_element()
+#12 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/base/element-base.php(450): Elementor\Element_Base->print_content()
+#13 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/base/element-base.php(744): Elementor\Element_Base->print_element()
+#14 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/base/element-base.php(450): Elementor\Element_Base->print_content()
+#15 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/core/base/document.php(1487): Elementor\Element_Base->print_element()
+#16 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/core/base/document.php(960): Elementor\Core\Base\Document->print_elements(Array)
+#17 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/frontend.php(1029): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#18 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/elementor/includes/frontend.php(943): Elementor\Frontend->get_builder_content(19)
+#19 /opt/lampp/htdocs/pj-cosmetics/wp-includes/class-wp-hook.php(303): Elementor\Frontend->apply_builder_in_content('[display_banner...')
+#20 /opt/lampp/htdocs/pj-cosmetics/wp-includes/plugin.php(189): WP_Hook->apply_filters('[display_banner...', Array)
+#21 /opt/lampp/htdocs/pj-cosmetics/wp-includes/post-template.php(253): apply_filters('the_content', '[display_banner...')
+#22 /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra/template-parts/content-page.php(54): the_content()
+#23 /opt/lampp/htdocs/pj-cosmetics/wp-includes/template.php(772): require('/opt/lampp/htdo...')
+#24 /opt/lampp/htdocs/pj-cosmetics/wp-includes/template.php(716): load_template('/opt/lampp/htdo...', false, Array)
+#25 /opt/lampp/htdocs/pj-cosmetics/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#26 /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra/inc/class-astra-loop.php(109): get_template_part('template-parts/...', 'page')
+#27 /opt/lampp/htdocs/pj-cosmetics/wp-includes/class-wp-hook.php(303): Astra_Loop->template_parts_page('')
+#28 /opt/lampp/htdocs/pj-cosmetics/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#29 /opt/lampp/htdocs/pj-cosmetics/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#30 /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra/inc/class-astra-loop.php(197): do_action('astra_page_temp...')
+#31 /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra/inc/class-astra-loop.php(174): Astra_Loop->loop_markup(true)
+#32 /opt/lampp/htdocs/pj-cosmetics/wp-includes/class-wp-hook.php(303): Astra_Loop->loop_markup_page('')
+#33 /opt/lampp/htdocs/pj-cosmetics/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#34 /opt/lampp/htdocs/pj-cosmetics/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#35 /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra/inc/core/theme-hooks.php(267): do_action('astra_content_p...')
+#36 /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra/page.php(32): astra_content_page_loop()
+#37 /opt/lampp/htdocs/pj-cosmetics/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#38 /opt/lampp/htdocs/pj-cosmetics/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#39 /opt/lampp/htdocs/pj-cosmetics/index.php(17): require('/opt/lampp/htdo...')
+#40 {main}
+  thrown in /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/woocommerce/includes/data-stores/class-wc-product-data-store-cpt.php on line 167
+
+2021-08-18T10:02:03+00:00 CRITICAL syntax error, unexpected token "}" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 72
+
+2021-08-18T10:03:07+00:00 CRITICAL syntax error, unexpected token "return", expecting "," or ";" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 77
+
+2021-08-18T10:03:08+00:00 CRITICAL syntax error, unexpected token "return", expecting "," or ";" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 77
+
+2021-08-18T10:53:21+00:00 CRITICAL syntax error, unexpected token "echo", expecting variable or "{" or "$" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 57
+
+2021-08-18T10:53:35+00:00 CRITICAL syntax error, unexpected token "echo", expecting variable or "{" or "$" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 57
+
+2021-08-18T10:55:21+00:00 CRITICAL syntax error, unexpected token "echo", expecting variable or "{" or "$" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 57
+
+2021-08-18T10:55:36+00:00 CRITICAL syntax error, unexpected token "echo", expecting variable or "{" or "$" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 57
+
+2021-08-18T10:57:21+00:00 CRITICAL syntax error, unexpected token "echo", expecting variable or "{" or "$" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 57
+
+2021-08-18T10:57:37+00:00 CRITICAL syntax error, unexpected token "echo", expecting variable or "{" or "$" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 57
+
+2021-08-18T10:59:21+00:00 CRITICAL syntax error, unexpected token "echo", expecting variable or "{" or "$" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 57
+
+2021-08-18T10:59:38+00:00 CRITICAL syntax error, unexpected token "echo", expecting variable or "{" or "$" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 57
+
+2021-08-18T11:01:21+00:00 CRITICAL syntax error, unexpected token "echo", expecting variable or "{" or "$" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 57
+
+2021-08-18T11:01:39+00:00 CRITICAL syntax error, unexpected token "echo", expecting variable or "{" or "$" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 57
+
+2021-08-18T11:03:21+00:00 CRITICAL syntax error, unexpected token "echo", expecting variable or "{" or "$" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 57
+
+2021-08-18T11:03:40+00:00 CRITICAL syntax error, unexpected token "echo", expecting variable or "{" or "$" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 57
+
+2021-08-18T11:05:21+00:00 CRITICAL syntax error, unexpected token "echo", expecting variable or "{" or "$" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 57
+
+2021-08-18T11:05:41+00:00 CRITICAL syntax error, unexpected token "echo", expecting variable or "{" or "$" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 57
+
+2021-08-18T11:07:21+00:00 CRITICAL syntax error, unexpected token "echo", expecting variable or "{" or "$" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 57
+
+2021-08-18T11:07:42+00:00 CRITICAL syntax error, unexpected token "echo", expecting variable or "{" or "$" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 57
+
+2021-08-18T11:09:21+00:00 CRITICAL syntax error, unexpected token "echo", expecting variable or "{" or "$" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 57
+
+2021-08-18T11:09:43+00:00 CRITICAL syntax error, unexpected token "echo", expecting variable or "{" or "$" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 57
+
+2021-08-18T11:11:21+00:00 CRITICAL syntax error, unexpected token "echo", expecting variable or "{" or "$" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 57
+
+2021-08-18T11:11:44+00:00 CRITICAL syntax error, unexpected token "echo", expecting variable or "{" or "$" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 57
+
+2021-08-18T11:13:21+00:00 CRITICAL syntax error, unexpected token "echo", expecting variable or "{" or "$" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 57
+
+2021-08-18T11:13:45+00:00 CRITICAL syntax error, unexpected token "echo", expecting variable or "{" or "$" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 57
+
+2021-08-18T11:15:07+00:00 CRITICAL syntax error, unexpected variable "$product", expecting "," or ";" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 56
+
+2021-08-18T11:18:51+00:00 CRITICAL syntax error, unexpected token "}" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 60
+
+2021-08-18T11:18:52+00:00 CRITICAL syntax error, unexpected token "}" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 60
+
+2021-08-18T11:18:58+00:00 CRITICAL syntax error, unexpected token "}" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 60
+
+2021-08-18T11:27:54+00:00 CRITICAL syntax error, unexpected token "if", expecting "," or ";" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 68
+
+2021-08-18T11:36:28+00:00 CRITICAL syntax error, unexpected token "return", expecting "," or ";" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 78
+
+2021-08-18T11:59:37+00:00 CRITICAL syntax error, unexpected variable "$gallery_img_ids" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 64
+
+2021-08-18T12:00:28+00:00 CRITICAL syntax error, unexpected variable "$gallery_img_ids" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 64
+
+2021-08-18T12:16:26+00:00 CRITICAL syntax error, unexpected token ">" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 61
+
+2021-08-18T12:16:36+00:00 CRITICAL syntax error, unexpected token ">" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 61
+
+2021-08-18T12:40:47+00:00 CRITICAL syntax error, unexpected variable "$o" in /opt/lampp/htdocs/pj-cosmetics/wp-content/themes/astra-child/functions.php on line 71
+

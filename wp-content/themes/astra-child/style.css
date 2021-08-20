@@ -1,0 +1,277 @@
+/**
+Theme Name: Astra Child
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+/* Header section */
+
+.home #ast-desktop-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.home .ast-primary-header-bar {
+    background: transparent;
+}
+
+#ast-desktop-header a.menu-link[aria-current="page"] {
+    position: relative;
+}
+
+#ast-desktop-header a.menu-link[aria-current="page"]:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    left: 50%;
+    top: 80%;
+    transform: translateX(-50%);
+    background: #71a998;
+}
+
+/* Banner section */
+
+.banner-section .elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding-top: 0;
+}
+
+.bpw .elementor-shortcode {
+    display: flex;
+    gap: 50px;
+}
+
+.bpw .elementor-shortcode>div {
+    flex: 1 1 0;
+}
+
+.bpw .img-box {
+    height: 500px;
+    width: 80%;
+}
+
+.img-box img {
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.bpw .img-box img {
+    height: 100%;
+
+}
+
+.bpw .detail-right .img-box {
+    margin-left: auto;
+}
+
+.bpw .banner-title {
+    margin-top: 150px;
+}
+
+.img-box.down img {
+    border-radius: 0 0 500px 500px;
+}
+
+.img-box.up img {
+    border-radius: 500px 500px 0 0;
+}
+
+.product-excerpt {
+    margin-top: 25px;
+}
+
+/* Product Block */
+
+.product-block {
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    padding: 3rem;
+    background: #F5F5F2;
+}
+
+.product-block>div {
+    flex: 1 1 0;
+}
+
+.product-block .img-box .main-img {
+    width: 80%;
+    height: 500px;
+}
+
+.product-block:nth-of-type(2n) {
+    flex-direction: row-reverse;
+}
+
+.product-block:nth-of-type(2n) .img-box {
+    text-align: right;
+}
+
+.product-block .lower-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    align-items: baseline;
+}
+
+.lower-section .gallery-images {
+    display: flex;
+    gap: 15px;
+}
+
+.lower-section .gallery-images img {
+    width: 80px;
+    height: 100px;
+}
+
+/* About Us */
+.about-us.img-box img {
+    width: 80%;
+    height: 500px;
+}
+
+.about-us-section .elementor-container {
+    align-items: center;
+}
+
+/* Product Images */
+
+.product-images .elementor-shortcode {
+    display: flex;
+    gap: 25px;
+}
+
+.product-images img {
+    max-height: 380px;
+    min-height: 300px;
+}
+
+.single-product .woocommerce-product-gallery__image a img {
+    max-height: 600px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Responsive design */
+
+@media (min-width: 768px) and (max-width: 921px) {
+    .bpw .elementor-shortcode {
+        gap: 10px;
+    }
+
+    .bpw .banner-title {
+        margin-top: 50px;
+    }
+
+    .bpw .img-box {
+        height: 350px;
+        width: 80%;
+    }
+
+    .product-block .img-box .main-img,
+    .about-us.img-box img {
+        height: 400px;
+    }
+
+}
+
+@media (min-width: 922px) {
+    #content {
+        margin-top: 50px;
+    }
+
+    .home #content {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .bpw {
+        text-align: center;
+    }
+
+    .bpw .banner-title {
+        margin-top: 25px;
+    }
+
+    .bpw .elementor-shortcode {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .bpw .img-box {
+        height: 100vw;
+        width: 100%;
+        max-height: 400px;
+    }
+
+    .bpw .detail-right .img-box {
+        text-align: center;
+        margin-top: 35px;
+    }
+
+
+    .img-box img {
+        max-width: 420px;
+    }
+
+    .bpw .detail-left .img-box {
+        display: none;
+    }
+
+    .product-block {
+        align-items: stretch;
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .product-block,
+    .product-block:nth-of-type(2n) {
+        flex-direction: column;
+    }
+
+    .product-block .img-box .main-img,
+    .about-us.img-box img {
+        width: 100%;
+        height: 100vw;
+        max-height: 400px;
+    }
+
+    .product-block .lower-section {
+        display: initial;
+    }
+
+    .lower-section .gallery-images {
+        display: none;
+    }
+
+    .product-block,
+    .product-block:nth-of-type(2n) .img-box {
+        text-align: center;
+    }
+
+    .product-block .product-detail,
+    .product-block .lower-section button {
+        margin-top: 25px;
+    }
+
+    .about-us-section .elementor-container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .product-images .elementor-shortcode {
+        flex-direction: column;
+        align-items: center;
+    }
+}
