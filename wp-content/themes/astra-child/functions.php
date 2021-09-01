@@ -26,3 +26,17 @@ function child_enqueue_styles()
 }
 
 add_action('wp_enqueue_scripts', 'child_enqueue_styles', 15);
+
+
+/**
+ * Enqueue scripts
+ */
+
+function child_enqueue_scripts(){
+	
+	wp_enqueue_script('custom-script', get_stylesheet_directory_uri() . '/scripts/custom-script.js', array ( 'jquery' ), CHILD_THEME_ASTRA_CHILD_VERSION, true);
+}
+
+add_action('wp_enqueue_scripts', 'child_enqueue_scripts', 16);
+
+

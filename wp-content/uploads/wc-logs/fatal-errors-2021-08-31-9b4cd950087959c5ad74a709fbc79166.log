@@ -1,0 +1,19 @@
+2021-08-31T09:52:11+00:00 CRITICAL Uncaught Error: Attempt to assign property "isFrame" on null in /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/SliderManager/SliderManager.php:82
+Stack trace:
+#0 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Application/Frontend/Slider/ViewIframe.php(33): Nextend\SmartSlider3\SliderManager\SliderManager->setUsage('iframe')
+#1 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Application/Frontend/Slider/ControllerPreRenderSlider.php(29): Nextend\SmartSlider3\Application\Frontend\Slider\ViewIframe->display()
+#2 [internal function]: Nextend\SmartSlider3\Application\Frontend\Slider\ControllerPreRenderSlider->actionIframe()
+#3 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/smart-slider-3/Nextend/Framework/Controller/AbstractController.php(93): call_user_func_array(Array, Array)
+#4 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/smart-slider-3/Nextend/Framework/Application/AbstractApplicationType.php(88): Nextend\Framework\Controller\AbstractController->doAction('iframe', Array)
+#5 /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Platform/WordPress/WordPressFrontend.php(31): Nextend\Framework\Application\AbstractApplicationType->process('PreRenderslider', 'iframe')
+#6 /opt/lampp/htdocs/pj-cosmetics/wp-includes/class-wp-hook.php(303): Nextend\SmartSlider3\Platform\WordPress\WordPressFrontend->preRender('')
+#7 /opt/lampp/htdocs/pj-cosmetics/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/pj-cosmetics/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/pj-cosmetics/wp-settings.php(578): do_action('init')
+#10 /opt/lampp/htdocs/pj-cosmetics/wp-config.php(96): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/pj-cosmetics/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/pj-cosmetics/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#13 /opt/lampp/htdocs/pj-cosmetics/index.php(17): require('/opt/lampp/htdo...')
+#14 {main}
+  thrown in /opt/lampp/htdocs/pj-cosmetics/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/SliderManager/SliderManager.php on line 82
+

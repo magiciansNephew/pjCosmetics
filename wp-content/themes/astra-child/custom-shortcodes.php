@@ -127,7 +127,7 @@ function product_list($att = [], $content = null, $tag = '')
     if (!empty($products)) {
         foreach ($products as $product) {
             //Product Block
-            $o .= '<div class="product-block" >';
+            $o .= '<div class="product-block slide" >';
             //Image box
             $o .= '<div class="img-box up" >';
             $imgUrl = getMainImgUrl($product);
